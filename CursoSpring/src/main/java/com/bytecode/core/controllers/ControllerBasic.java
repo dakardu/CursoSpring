@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/")
 public class ControllerBasic {
 	
-	@GetMapping(path = {"/saludar", "/hola"})
+	@GetMapping(path = {"/", "/saludo"})
 	public String saludar() {
 		return "index";
 	}
